@@ -1,0 +1,132 @@
+body{
+  /* background-color: #D7CEC7 */
+  font-family: 'Nunito Sans', sans-serif;
+  /* border: 1px solid transparent; */
+}
+
+/* Navbar */
+
+.navbar{
+  /* background-color: #56565656;
+  color: #f8f9fa; */
+}
+
+@media (min-width: 576px)
+.navbar-expand-lg {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+/* HOME */
+.wrapper{
+  position:relative;
+}
+.home{
+  /* position: absolute; */
+}
+
+
+.carousel{
+  /* padding-top: 4em; */
+  /* padding-bottom: 4em; */
+  /* padding: 100px; */
+  /* background: rgba(39,62,84,0.82); */
+  /* z-index: 0; */
+  /* padding-right: 2em; */
+  /* padding-left: 2em;  */
+  width: auto;
+  height: auto;
+
+}
+.carousel-item .active{
+      height: inherit;
+}
+.carousel-item img{
+  width:100%;
+  height: inherit;
+}
+#image-1{
+  height:auto;
+
+  width:100%;
+}
+
+
+
+/* service */
+.container-fluid{
+  display: block;
+}
+
+/* GRID */
+.service-element{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.19), 0 1px 7px rgba(0,0,0,0.33);
+
+  margin-top: inherit;
+  text-align: center;
+  margin-left: inherit;
+  margin-right: inherit;
+  display:block;
+
+  max-width: 83.333333%;
+}
+.service-element h4{
+  border-bottom: 2px solid;
+  margin-top: 10px;
+}
+
+.service-element:hover{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.69), 0 1px 7px rgba(0,0,0,0.63);
+
+}
+.row{
+
+  margin: 10px auto;
+}
+
+
+li {
+    list-style-type: unset;
+    text-align: center;
+}
+
+
+
+/* Location */
+
+.location{
+  background-color: #F0F8FF;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  margin-top: 2em;
+}
+.location h3{
+  text-align: center;
+  margin: 1em;
+}
+.text-address{
+  padding-top: 20px;
+}
+.email-info{
+  margin-top: 3em;
+}
+.location .row {
+  margin: 60px 0;
+  display: flex;
+  align-items: center;  /*Aligns vertically center */
+  justify-content: center; /*Aligns horizontally center */
+}
+.location div.row.exclude{
+  margin-bottom: 10px;
+}
+.location .row p {
+  display: flex;
+  align-items: center;  /*Aligns vertically center */
+  justify-content: center; /*Aligns horizontally center *
+}
